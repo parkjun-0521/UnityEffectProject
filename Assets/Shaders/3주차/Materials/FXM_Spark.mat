@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FXM_Spark
+  m_Shader: {fileID: 4800000, guid: 3879a21d039e1304eaa479ce306e7266, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _COLORSWITCH_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dissolve_Texture:
+        m_Texture: {fileID: 2800000, guid: 9e549e82edc764b418698981d4a88a61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FXT_Glow:
+        m_Texture: {fileID: 2800000, guid: 1d923a29bc946134d8df692a5f2e7e82, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: b008450f3244f6d45b699dd9bbcd092c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: 93af8c0c4529885418a55118e8d82091, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: b008450f3244f6d45b699dd9bbcd092c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _ColorSwitch: 1
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _Diss_UPanner: 0
+    - _Diss_VPanner: 0
+    - _Dissolve_Value: 1
+    - _Dst: 1
+    - _Float0: 0.01
+    - _Keyword0: 0
+    - _Main_Ins: 8.14
+    - _Main_Pow: -0.74
+    - _Main_UPanner: 0
+    - _Main_VPanner: 0
+    - _Noise_Str: 0
+    - _Noise_UPanner: 0
+    - _Noise_VPanner: 0
+    - _Opacity: 2.33
+    - _Src: 5
+    - _Use_Custom: 0
+    - __dirty: 0
+    m_Colors:
+    - _Main_Color: {r: 1.0683883, g: 0, b: 3.209088, a: 0}
+  m_BuildTextureStacks: []
