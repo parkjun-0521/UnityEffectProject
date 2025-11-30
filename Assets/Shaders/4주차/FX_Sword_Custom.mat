@@ -77,14 +77,14 @@ Material:
     - _Float1: 9.82
     - _Head_Ins: 3
     - _Head_Range: 0.3
-    - _Main_Ins: 4.7389293
+    - _Main_Ins: 3.61
     - _Main_Pow: 1
-    - _Main_Power: 1
+    - _Main_Power: 1.77
     - _Main_UPanner: 0
-    - _Main_VPanner: -0.5
+    - _Main_VPanner: 1.18
     - _MaskXY: 0
     - _Mask_Range: 3.89
-    - _Noise_Str: 0.76
+    - _Noise_Str: 2.23
     - _Noise_UPanner: 0
     - _Noise_VPanner: -0.5
     - _Opacity: 3.48
