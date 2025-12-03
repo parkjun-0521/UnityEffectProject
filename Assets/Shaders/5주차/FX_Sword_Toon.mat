@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FX_Sword
-  m_Shader: {fileID: 4800000, guid: 3ecf08e8503ef5842a2cd04c4fa7126e, type: 3}
+  m_Name: FX_Sword_Toon
+  m_Shader: {fileID: 4800000, guid: e2c6058d7a243d54da7d57d8b2dba1a6, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _USEMASKXY_ON
+  - _USE_CUSTOM_ON
   m_InvalidKeywords:
   - _KEYWORD0_ON
   m_LightmapFlags: 0
@@ -26,8 +26,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Dissolve_Texture:
-        m_Texture: {fileID: 2800000, guid: 3707f30ab64c8cd469635de47d42b674, type: 3}
-        m_Scale: {x: 2, y: 10}
+        m_Texture: {fileID: 2800000, guid: 9e549e82edc764b418698981d4a88a61, type: 3}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FX_Mask01:
         m_Texture: {fileID: 2800000, guid: 147d45afa3bdffc43b9d9808b0636126, type: 3}
@@ -39,18 +39,18 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _Main_Texture:
         m_Texture: {fileID: 2800000, guid: 9e549e82edc764b418698981d4a88a61, type: 3}
-        m_Scale: {x: 1, y: 5}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask_Texture:
-        m_Texture: {fileID: 2800000, guid: 147d45afa3bdffc43b9d9808b0636126, type: 3}
+        m_Texture: {fileID: 2800000, guid: 992bf059c7766cd4c982926aa5b88502, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise_Texture:
         m_Texture: {fileID: 2800000, guid: 93af8c0c4529885418a55118e8d82091, type: 3}
-        m_Scale: {x: 1, y: 2}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Sword_Texture:
-        m_Texture: {fileID: 2800000, guid: 09a6c6291f20eff4ab7a4daf0d820589, type: 3}
+        m_Texture: {fileID: 2800000, guid: c3581d5c306f49b4a9fc080e51979cdc, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
@@ -63,38 +63,40 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Ceil_Count: 4
     - _ColorSwitch: 0
-    - _CullMode: 1
+    - _CullMode: 2
     - _Diss_UPanner: 0
     - _Diss_VPanner: 0
     - _Dissolve: 1
-    - _Dissolve_UPanner: 0
-    - _Dissolve_VPanner: 0.5
+    - _Dissolve_UPanner: -0.05
+    - _Dissolve_VPanner: 0
     - _Dissolve_Value: -1
-    - _Dst: 10
+    - _Dst: 0
     - _Emi_Offset: -3
     - _Float1: 9.82
-    - _Head_Ins: 3
-    - _Head_Range: 0.3
+    - _Head_Ins: 5
+    - _Head_Range: 1.78
     - _Main_Ins: 1
     - _Main_Pow: 1
     - _Main_Power: 1
-    - _Main_UPanner: 0
-    - _Main_VPanner: -0.5
+    - _Main_UPanner: -0.05
+    - _Main_VPanner: 0
     - _MaskXY: 0
-    - _Mask_Range: 3.89
-    - _Noise_Str: 0.24
-    - _Noise_UPanner: 0.1
+    - _Mask_Range: 10
+    - _Noise_Str: 0
+    - _Noise_UPanner: 0
     - _Noise_VPanner: 0
     - _Opacity: 3.48
     - _Oparity: 1
-    - _Src: 5
-    - _Sword_Offeset: 0
+    - _Src: 0
+    - _Sword_Offeset: 0.45
     - _UseMaskTex: 0
-    - _UseMaskXY: 1
-    - _Use_Custom: 0
+    - _UseMaskXY: 0
+    - _Use_Custom: 1
     - __dirty: 0
     m_Colors:
-    - _Emi_Color: {r: 1.3242856, g: 4.1076975, b: 4.2870946, a: 1}
-    - _Main_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Emi_Color: {r: 0.97193336, g: 0.11781012, b: 0, a: 1}
+    - _Head_Color: {r: 4, g: 0, b: 0, a: 0}
+    - _Main_Color: {r: 3.6444938, g: 2.3660586, b: 0, a: 1}
   m_BuildTextureStacks: []
