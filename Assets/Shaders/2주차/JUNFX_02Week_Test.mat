@@ -36,7 +36,7 @@ Material:
     - _CullMode: 2
     - _DissolveValue: 1
     - _Dst: 1
-    - _MainPower: 0.52
+    - _MainPower: 0.73
     - _Opacity: 1
     - _Src: 5
     - __dirty: 0

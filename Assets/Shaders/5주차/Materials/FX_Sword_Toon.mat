@@ -75,7 +75,7 @@ Material:
     - _Dst: 0
     - _Emi_Offset: -3
     - _Float1: 9.82
-    - _Head_Ins: 5
+    - _Head_Ins: 10
     - _Head_Range: 1.78
     - _Main_Ins: 1
     - _Main_Pow: 1
@@ -96,7 +96,7 @@ Material:
     - _Use_Custom: 1
     - __dirty: 0
     m_Colors:
-    - _Emi_Color: {r: 0.97193336, g: 0.11781012, b: 0, a: 1}
-    - _Head_Color: {r: 4, g: 0, b: 0, a: 0}
-    - _Main_Color: {r: 3.6444938, g: 2.3660586, b: 0, a: 1}
+    - _Emi_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Head_Color: {r: 5.3403134, g: 5.3403134, b: 5.3403134, a: 0}
+    - _Main_Color: {r: 4.8656855, g: 4.8656855, b: 4.8656855, a: 1}
   m_BuildTextureStacks: []
