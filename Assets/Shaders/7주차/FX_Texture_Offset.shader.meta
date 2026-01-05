@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ce83b747dd0b3d7438228047ae58eb51
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Offset_Texture: {fileID: 2800000, guid: 928cf7d6749d7144191a186d494b5584, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
