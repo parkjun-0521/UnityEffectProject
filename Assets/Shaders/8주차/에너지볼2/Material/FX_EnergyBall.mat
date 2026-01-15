@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX_EnergyBall
+  m_Shader: {fileID: 4800000, guid: dedbf70bec78695428f2be49b684255a, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Dissolve_Texture:
+        m_Texture: {fileID: 2800000, guid: 9e549e82edc764b418698981d4a88a61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 11dfe8ca7395e014dbce71f2e0f6ad12, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: 11dfe8ca7395e014dbce71f2e0f6ad12, type: 3}
+        m_Scale: {x: 1, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 66e9f2f309eba6543886cbfc714d5276, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Dissolve: 1
+    - _Dissolve_UPanner: 0.5
+    - _Dissolve_VPanner: 0.5
+    - _Float0: 0.17
+    - _Fresnel_Power: 2.55
+    - _Fresnel_Scale: 0.609
+    - _In_Fresnel_Power: 1.47
+    - _In_Fresnel_Scale: 100
+    - _Noise_Rotation: 0.33
+    - _Noise_UPanner: 0.5
+    - _Noise_VPanner: 0.5
+    - _Normal_Scale: 0.141
+    - _Out_Fresnel_Power: 2.13
+    - _Out_Fresnel_Scale: 0.632
+    - _Rotation: -0.83
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 1, g: 0, b: 0, a: 0}
+    - _Fresnel_In_Color: {r: 0.1509434, g: 0, b: 0, a: 0}
+    - _Fresnel_Out_Color: {r: 0, g: 1.0787923, b: 3.4822016, a: 0}
+    - _In_Fresnel_In_Color: {r: 0, g: 0.95755357, b: 7.9066987, a: 0}
+    - _Out_Fresnel_In_Color: {r: 0, g: 0, b: 0, a: 0}
+    - _Out_Fresnel_Out_Color: {r: 0.51499057, g: 2.8109646, b: 6.4222345, a: 0}
+  m_BuildTextureStacks: []
