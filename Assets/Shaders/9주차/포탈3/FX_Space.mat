@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX_Space
+  m_Shader: {fileID: 4800000, guid: fb79c4d3d871c4a4bb1afaf5729117d0, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FX_Eye:
+        m_Texture: {fileID: 2800000, guid: 17a9d202622590f448a698f42e40a091, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FX_Space_Texture:
+        m_Texture: {fileID: 2800000, guid: fbc5f3194bb652644b0e4eb366eeee7e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Hall_Range: 1.64
+    - _Height: 3.27
+    - _Screen_Scale: 1
+    - _Texuture_Scale: 2.86
+    - __dirty: 0
+    m_Colors:
+    - _B_Color: {r: 1.1353015, g: 0, b: 1.1353015, a: 0}
+    - _G_Color: {r: 11.18176, g: 9.277041, b: 0, a: 0}
+    - _R_Color: {r: 3.031433, g: 3.031433, b: 0.32888195, a: 0}
+  m_BuildTextureStacks: []

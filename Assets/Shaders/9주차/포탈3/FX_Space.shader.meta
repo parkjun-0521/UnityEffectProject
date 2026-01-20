@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: fb79c4d3d871c4a4bb1afaf5729117d0
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _FX_Eye: {fileID: 2800000, guid: 17a9d202622590f448a698f42e40a091, type: 3}
+  - _FX_Space_Texture: {fileID: 2800000, guid: fbc5f3194bb652644b0e4eb366eeee7e, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

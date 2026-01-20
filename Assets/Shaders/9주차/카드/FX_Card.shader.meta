@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 03ff0e50bed57cf42b29b2e5e434729f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TextureSample0: {fileID: 8400000, guid: 5ea04138ea37de145839555925967c2c, type: 2}
+  - _Card_FX_RG: {fileID: 2800000, guid: f920b45b32bbc004682450bf9861229b, type: 3}
+  - _Card_FX: {fileID: 2800000, guid: 0e83c420ef1c8784c86cf2ff806dfe25, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

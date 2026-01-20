@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FX_WhiteMask01
+  m_Name: FX_WhiteMask02
   m_Shader: {fileID: 4800000, guid: 44ea6df4c8c9efc4d80f57891113852d, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2001
+  m_CustomRenderQueue: 1999
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -25,7 +25,7 @@ Material:
     m_TexEnvs: []
     m_Ints: []
     m_Floats:
-    - _Float0: 0
+    - _Float0: 1
     - __dirty: 0
     m_Colors: []
   m_BuildTextureStacks: []
