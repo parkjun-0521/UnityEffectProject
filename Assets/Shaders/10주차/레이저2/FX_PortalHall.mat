@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX_PortalHall
+  m_Shader: {fileID: 4800000, guid: 9ce617e3a73aa86408cc9846033dd541, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2002
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Main_Texture:
+        m_Texture: {fileID: 2800000, guid: 9e549e82edc764b418698981d4a88a61, type: 3}
+        m_Scale: {x: 3, y: 0.25}
+        m_Offset: {x: 0, y: 0}
+    - _Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: 11dfe8ca7395e014dbce71f2e0f6ad12, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Sub_Texture:
+        m_Texture: {fileID: 2800000, guid: 4d4aa8dd17b29d84f89aa42a9320cf61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _CullMode: 0
+    - _Hall_Range: 5.5
+    - _Main_Ins: 1
+    - _Main_Power: 2
+    - _Main_UPanner: 0
+    - _Main_VPanner: 0.25
+    - _Noise_Str: 0.1
+    - _Noise_UPanner: 0
+    - _Noise_VPanner: -0.1
+    - _SubTex_Ins: 1
+    - _SubTex_Power: 4.33
+    - _SubTex_UPanner: 0
+    - _SubTex_VPanner: 0.25
+    - __dirty: 0
+    m_Colors:
+    - _Main_Color: {r: 7.7915154, g: 3.6466737, b: 2.3252165, a: 0}
+    - _SubTex_Color: {r: 821.13226, g: 70.42923, b: 21.495602, a: 0}
+  m_BuildTextureStacks: []

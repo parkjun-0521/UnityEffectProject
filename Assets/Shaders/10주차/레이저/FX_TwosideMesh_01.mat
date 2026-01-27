@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX_TwosideMesh_01
+  m_Shader: {fileID: 4800000, guid: a5645b29d96733346b46964d4eff2dfa, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _KEYWORD0_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 43bc12ce888079941b1dd9c44d6132f4, type: 3}
+        m_Scale: {x: 4.2, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Texture:
+        m_Texture: {fileID: 2800000, guid: 4e1b5f7d75a975648b396237f8e79e27, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.01}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Cutoff: 0.5
+    - _Dissolve: -0.497
+    - _Keyword0: 1
+    - _Main_UPanner: 0
+    - _Main_VPanner: 1.5
+    - _Mask_Range: 1.7
+    - _Mask_VRange: 0
+    - _Use_Mask: 0
+    - __dirty: 0
+    m_Colors:
+    - _Back_Color: {r: 0, g: 0.047058824, b: 0.35686275, a: 0}
+    - _Front_Color: {r: 0, g: 0.046470996, b: 0.3584906, a: 0}
+  m_BuildTextureStacks: []
