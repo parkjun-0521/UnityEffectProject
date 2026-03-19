@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 406cc75e908f37d419626c8af7656f73
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _CrackNormal_Texture: {fileID: 2800000, guid: 0ddcf04227bfb194c8e5b604e27eab71, type: 3}
+  - _Test_Texture: {fileID: 2800000, guid: 6d3c89f708347c8439e9a433d593ab78, type: 3}
+  - _CrackBase_Texture: {fileID: 2800000, guid: f1ad394bb6ca4a74abdb1eeae0b87b20, type: 3}
+  - _Mask_Texture: {fileID: 2800000, guid: 604fa09b9da5b3a46bed8dace70f6fa1, type: 3}
+  - _CrackEmi_Texture: {fileID: 2800000, guid: fb64124c783b9444fbccccd0fd72fc52, type: 3}
+  - _NoiseEmi_Texture1: {fileID: 2800000, guid: 9e549e82edc764b418698981d4a88a61, type: 3}
+  - _Dissolve_Texture: {fileID: 2800000, guid: 9e549e82edc764b418698981d4a88a61, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -7,11 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: FX_Space
-  m_Shader: {fileID: 4800000, guid: fb79c4d3d871c4a4bb1afaf5729117d0, type: 3}
+  m_Name: FX_Ice_Floor
+  m_Shader: {fileID: 4800000, guid: f8911790efa89d34d8be904db255189c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _USE_CUSTOM_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -23,27 +24,34 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _FX_Eye:
-        m_Texture: {fileID: 2800000, guid: 17a9d202622590f448a698f42e40a091, type: 3}
+    - _Ice_Texture:
+        m_Texture: {fileID: 2800000, guid: c01c4f8b1dbc5ec4fa0e0c66dd0a8209, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FX_Space_Texture:
-        m_Texture: {fileID: 2800000, guid: fbc5f3194bb652644b0e4eb366eeee7e, type: 3}
+    - _MAsk_Texture:
+        m_Texture: {fileID: 2800000, guid: 69c092ca2f458994191d6e35d28dbc07, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Texture:
+        m_Texture: {fileID: 2800000, guid: 69c092ca2f458994191d6e35d28dbc07, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _texcoord:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Hall_Range: 1.64
-    - _Height: 2.67
-    - _Screen_Scale: 1
-    - _Texuture_Scale: 2.86
+    - _Cutoff: 0.5
+    - _DIssolve: 2.45
+    - _Float1: 0.07
+    - _Ice_Pow: 1
+    - _Use_Custom: 1
     - __dirty: 0
     m_Colors:
-    - _B_Color: {r: 1.1353015, g: 0, b: 1.1353015, a: 0}
-    - _G_Color: {r: 11.18176, g: 9.277041, b: 0, a: 0}
-    - _R_Color: {r: 3.031433, g: 3.031433, b: 0.32888195, a: 0}
+    - _Ice_Color: {r: 0.9386792, g: 0.9439701, b: 1, a: 0}
   m_BuildTextureStacks: []

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX_Crack_Blue
+  m_Shader: {fileID: 4800000, guid: 406cc75e908f37d419626c8af7656f73, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USE_CUSTOM_ON
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CrackBase_Texture:
+        m_Texture: {fileID: 2800000, guid: f1ad394bb6ca4a74abdb1eeae0b87b20, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CrackEmi_Texture:
+        m_Texture: {fileID: 2800000, guid: fb64124c783b9444fbccccd0fd72fc52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CrackNormal_Texture:
+        m_Texture: {fileID: 2800000, guid: 0ddcf04227bfb194c8e5b604e27eab71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Dissolve_Texture:
+        m_Texture: {fileID: 2800000, guid: 9e549e82edc764b418698981d4a88a61, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Texture:
+        m_Texture: {fileID: 2800000, guid: 604fa09b9da5b3a46bed8dace70f6fa1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseEmi_Texture:
+        m_Texture: {fileID: 2800000, guid: 9e549e82edc764b418698981d4a88a61, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseEmi_Texture1:
+        m_Texture: {fileID: 2800000, guid: 15bbfaded4c788d468c1d9fd17406c65, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Test_Texture:
+        m_Texture: {fileID: 2800000, guid: 6d3c89f708347c8439e9a433d593ab78, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Base_Ins: 0.82
+    - _Dissolve: 1
+    - _Float0: 0.27
+    - _Float1: 1
+    - _Float2: 1
+    - _Float3: 1
+    - _Glow_Range: 25
+    - _Height_Scale: 0.051
+    - _Keyword0: 0
+    - _Normal_Str: 5
+    - _Opacity: 2.5
+    - _Use_Custom: 1
+    - __dirty: 0
+    m_Colors:
+    - _Base_Color: {r: 0.5475102, g: 0.48627448, b: 1, a: 0}
+    - _Emi_Center_Color: {r: 0.12156861, g: 0.2314261, b: 0.7019608, a: 0}
+    - _Emi_Color: {r: 0.8279842, g: 0.5647059, b: 5.992157, a: 0}
+    - _Vector0: {r: -0.15, g: 0, b: 0, a: 0}
+    - _Vector1: {r: -0.15, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
